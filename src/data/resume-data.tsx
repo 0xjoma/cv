@@ -2,7 +2,7 @@ import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
   name: "Jomael Ortiz Perez",
-  initials: "",
+  initials: "JOP",
   location: "Ewa Beach, HI",
   locationLink: "https://www.google.com/maps/place/Ewa+beach+hi",
   about:
