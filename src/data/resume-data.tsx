@@ -26,7 +26,7 @@ export const RESUME_DATA = {
   avatarUrl: "",
   personalWebsiteUrl: "https://0xjoma.github.io/",
   contact: {
-    email: "0xjoma@proton.me",
+    email: "",
     tel: "",
     social: [
       {
@@ -47,6 +47,12 @@ export const RESUME_DATA = {
     ],
   },
   education: [
+    {
+      school: "University of Wisconsin-La Crosse",
+      degree: "Master's Degree in Cybersecurity",
+      start: "Summer 2024",
+      end: "Present",
+    },
     {
       school: "Columbia Southern University",
       degree: "Bachelor's Degree in Information Systems and Cybersecurity",
@@ -111,168 +117,126 @@ export const RESUME_DATA = {
   projects: [
     {
       title: "Consultly",
-      techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-      ],
+      techStack: ["Side Project"],
       description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
       link: {
-        label: "consultly.com",
         href: "https://consultly.com/",
       },
     },
     {
       title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
+      techStack: ["Side Project"],
       description:
         "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
       link: {
-        label: "monito.dev",
         href: "https://monito.dev/",
       },
     },
     {
       title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
+      techStack: ["Side Project"],
       description:
         "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
       link: {
-        label: "github.com",
         href: "https://jarocki.me/",
       },
     },
     {
       title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      techStack: ["Side Project"],
       description:
         "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
       link: {
-        label: "useminimal.com",
         href: "https://useminimal.com/",
       },
     },
     {
       title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      techStack: ["Side Project"],
       description:
         "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
       link: {
-        label: "barepapers.com",
         href: "https://barepapers.com/",
       },
     },
     {
       title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
+      techStack: ["Side Project"],
       description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
       link: {
-        label: "getyearprogress.com",
         href: "https://getyearprogress.com/",
       },
     },
     {
       title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
+      techStack: ["Side Project"],
       description:
         "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
       link: {
-        label: "github.com",
         href: "https://parabol.co/",
       },
     },
     {
       title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
+      techStack: ["Side Project"],
       description:
         "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
       link: {
-        label: "evercast.us",
         href: "https://www.evercast.us/",
       },
     },
     {
       title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
+      techStack: ["Side Project"],
       description:
         "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
       link: {
-        label: "mobilevikings.pl",
         href: "https://mobilevikings.pl/",
       },
     },
     {
       title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
+      techStack: ["Side Project"],
       description:
         "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
       link: {
-        label: "play.google.com",
         href: "https://howdy.co/",
       },
     },
     {
       title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
+      techStack: ["Side Project"],
       description:
         "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
       link: {
-        label: "tastycloud.fr",
         href: "https://www.tastycloud.fr/",
       },
     },
     {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
+      title: "File Permissions in Linux",
+      techStack: ["Side Project", "Linux"],
       description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
+        "Updating the file permissions for certain files and directories within the projects directory.",
+      link: {
+        href: "https://0xjoma.github.io/jekyll/update/2023/10/24/file-permissions-in-linux.html",
+      }
     },
     {
       title: "Incident Report Analysis",
-      techStack: ["Side Project", "Android", "Kotlin"],
+      techStack: ["Side Project"],
       description:
-        "The company experienced a security event when all network services suddenly stopped responding.",
+        "An Incident Report Analysis for a company that experienced a security event when all network services suddenly stopped responding.",
       link: {
-        label: "Read more",
         href: "https://0xjoma.github.io/jekyll/update/2021/10/18/incident-report-analysis.html",
       },
     },
     {
-      title: "Setting Up Kali Linux on a Bootable USB Device for macOS/OS X",
-  techStack: ["Side Project", "Kali Linux", "macOS"],
-  description:
-    "This guide outlines the process of creating a Kali Linux bootable USB device using a hard drive on a macOS environment.",
-  link: {
-    label: "Read more",
-    href: "https://0xjoma.github.io/jekyll/update/2023/10/18/setting-up-kali-linux.html",
+      title: "Setting Up Kali Linux",
+      techStack: ["Side Project", "Kali Linux", "macOS"],
+      description:
+        "This guide outlines the process of creating a Kali Linux bootable USB device using a hard drive on a macOS environment.",
+      link: {
+        href: "https://0xjoma.github.io/jekyll/update/2023/10/18/setting-up-kali-linux.html",
   },
 },
   ],
