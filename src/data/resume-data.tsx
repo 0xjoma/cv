@@ -2,14 +2,14 @@ import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
   name: "Jomael Ortiz Perez",
-  initials: "JOP",
+  initials: "",
   location: "Ewa Beach, HI",
   locationLink: "https://www.google.com/maps/place/Ewa+beach+hi",
   about:
     "Currently pursuing a M.S. in Cybersecurity at the University of Wisconsin-La Crosse.",
   summary:
     "Active military member with a background in Information Systems and Cybersecurity, committed to strengthening digital defenses and fostering knowledge sharing in the dynamic field of cybersecurity. I am a staunch advocate for knowledge sharing. I use my blog and X to chronicle my cybersecurity journey, share insights from my academic pursuits, and participate in discussions on the ever-evolving cybersecurity landscape.",
-  avatarUrl: "https://github.com/0xjoma/cv/blob/main/src/images/logos/avatarImage.jpg",
+  avatarUrl: "https://github.com/0xjoma/cv/blob/main/src/images/logos/avatarImage.jpg?raw=true",
   personalWebsiteUrl: "https://0xjoma.github.io/",
   contact: {
     email: "",
