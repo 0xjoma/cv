@@ -208,7 +208,7 @@ export const RESUME_DATA = {
       description:
         "An Incident Report Analysis for a company that experienced a security event when all network services suddenly stopped responding.",
       link: {
-        href: "https://0xjoma.github.io/jekyll/update/2021/10/18/incident-report-analysis.html",
+        href: "https://0xjoma.github.io/jekyll/update/2023/10/23/incident-report-analysis.html",
       },
     },
     {
