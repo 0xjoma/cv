@@ -44,13 +44,6 @@ export const RESUME_DATA = {
       degree: "Bachelor's Degree in Information Systems and Cybersecurity",
       start: "2019",
       end: "2024",
-      image: {
-        src: "path/to/your/image.jpg",
-        alt: "Columbia Southern University Logo",
-        width: 200,
-        height: 150,
-        link: "src/images/logos/diploma.png"
-    },
   }
   ],
   work: [
