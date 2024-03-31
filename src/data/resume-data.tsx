@@ -42,20 +42,22 @@ export const RESUME_DATA = {
     {
       school: "Columbia Southern University",
       degree: "Bachelor's Degree in Information Systems and Cybersecurity",
+      link: "https://github.com/0xjoma/cv/blob/e4861e6d76696ffda0bbb858861a3c142c4a9b8b/src/images/logos/diploma.png",
       start: "2019",
       end: "2024",
-  }
+      diploma: "https://github.com/0xjoma/cv/blob/e4861e6d76696ffda0bbb858861a3c142c4a9b8b/src/images/logos/diploma.png",
+    }
   ],
   work: [
     {
       company: "US Army",
       link: "https://www.goarmy.com/",
       badges: ["Active Duty"],
-      title: "Logistics Supervisor",
+      title: "Logistics Engineer",
       start: "2012",
       end: "Present",
       description:
-        "Senior Logistician and Supervisor with over 9 years of experience in the United States Army. Proven track record of proper management of personnel, equipment, and resources. Adept at managing multiple projects simultaneously. Skilled at building relationships with internal and external stakeholders. Strong leadership skills with the ability to motivate and inspire others.",
+        "Senior Logistician Engineer and Supervisor with over 10 years of experience in the United States Army. Proven track record of proper management of personnel, equipment, and resources. Adept at managing multiple projects simultaneously. Skilled at building relationships with internal and external stakeholders. Strong leadership skills with the ability to motivate and inspire others.",
     },
     {
       company: "BiggerMINDS LLC",
