@@ -42,10 +42,8 @@ export const RESUME_DATA = {
     {
       school: "Columbia Southern University",
       degree: "Bachelor's Degree in Information Systems and Cybersecurity",
-      link: "https://github.com/0xjoma/cv/blob/e4861e6d76696ffda0bbb858861a3c142c4a9b8b/src/images/logos/diploma.png",
       start: "2019",
       end: "2024",
-      diploma: "https://github.com/0xjoma/cv/blob/e4861e6d76696ffda0bbb858861a3c142c4a9b8b/src/images/logos/diploma.png",
     }
   ],
   work: [
