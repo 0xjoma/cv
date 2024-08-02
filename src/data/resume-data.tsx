@@ -122,15 +122,6 @@ export const RESUME_DATA = {
       }
     },
     {
-      title: "Hack The Box",
-      techStack: ["Academic", "Cybersecurity"],
-      description:
-        "I am thrilled to share the beginning of an exhilarating journey with Hack The Box.",
-      link: {
-        href: "https://0xjoma.github.io/jekyll/update/2023/12/19/my-hack-the-box-journey-begins.html",
-      }
-    },
-    {
       title: "Uncovering Evidence",
       techStack: ["Academic", "BrowsingHistoryView", "FavoritesView", "Helix", "IECacheView", "IECookiesView", "MyLastSearch", "ProcessExplorer", "Cybersecurity"],
       description:
