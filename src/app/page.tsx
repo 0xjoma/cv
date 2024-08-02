@@ -158,22 +158,6 @@ export default function Page() {
               </Card>
             );
           })}
-           <Section className="print-force-new-page scroll-mb-16">
-          <h2 className="text-xl font-bold">Certifications</h2>
-          <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
-            {RESUME_DATA.projects.map((certifications) => {
-              return (
-                <ProjectCard
-                  key={certifications.title}
-                  title={certifications.title}
-                  description={certifications.description}
-                  tags={certifications.techStack}
-                  link={"link" in certifications ? certifications.link.href : undefined}
-                />
-              );
-            })}
-          </div>
-        </Section>
         </Section>
         <Section>
           <h2 className="text-xl font-bold">Skills</h2>
