@@ -9,7 +9,7 @@ export const RESUME_DATA = {
   about:
     "Currently pursuing a M.S. in Cybersecurity at the University of Wisconsin-La Crosse.",
   summary:
-    "Active military member with a background in Information Systems and Cybersecurity, committed to strengthening digital defenses and fostering knowledge sharing in the dynamic field of cybersecurity. I am a staunch advocate for knowledge sharing. I use my blog and X to chronicle my cybersecurity journey, share insights from my academic pursuits, and participate in discussions on the ever-evolving cybersecurity landscape.",
+    "Active military member with a background in Information Systems and Cybersecurity, committed to strengthening digital defenses and fostering knowledge sharing in the dynamic field of cybersecurity.",
   avatarUrl: "https://raw.githubusercontent.com/0xjoma/cv/main/src/images/logos/0xjoma.png",
   personalWebsiteUrl: "https://0xjoma.github.io/",
   contact: {
@@ -68,7 +68,6 @@ export const RESUME_DATA = {
       description:
         "BiggerMINDS developed a unique set of complementary products, MIND+ token, NFT Marketplace, NFT Staking, NFTs, MIND+ Staking and more, to create an entire sustainable ecosystem, enabling users, businesses, and projects access to a token with unlimited utility in a vast ecosystem.",
     },
-
   ],
   certifications: [
     {
