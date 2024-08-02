@@ -1,4 +1,5 @@
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import { Certificate } from "crypto";
 
 export const RESUME_DATA = {
   name: "Jomael Ortiz Perez",
