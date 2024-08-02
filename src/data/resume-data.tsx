@@ -38,7 +38,7 @@ export const RESUME_DATA = {
       school: "University of Wisconsin-La Crosse",
       degree: "Master's Degree in Cybersecurity",
       start: "2024",
-      end: "Enrolled",
+      end: "Present",
     },
     {
       school: "Columbia Southern University",
