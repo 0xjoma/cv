@@ -69,6 +69,26 @@ export const RESUME_DATA = {
     },
 
   ],
+  certifications: [
+    {
+      title: "CompTIA Security+",
+      issuer: "CompTIA",
+      link: "https://www.credly.com/badges/63db803c-5963-44ac-9532-858951efeed5/public_url",
+      date: "2024",
+    },
+    {
+      title: "CompTIA ITF+",
+      issuer: "CompTIA",
+      link: "https://www.credly.com/badges/564c352f-8876-48c4-868f-e33b1e9c5111/public_url",
+      date: "2024",
+    },
+    {
+      title: "Google Cybersecurity Certificate",
+      issuer: "Coursera",
+      link: "https://www.credly.com/badges/c57222d0-21f8-4223-b07f-90a6d99345b3/public_url",
+      date: "2023",
+    },
+  ],
   skills: [
     "Adaptability",
     "Attention to Detail",
@@ -100,7 +120,6 @@ export const RESUME_DATA = {
     "Time Management",
     "Writing"
   ],
-
   projects: [
 
     {
