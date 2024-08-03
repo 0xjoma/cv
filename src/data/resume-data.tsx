@@ -13,7 +13,7 @@ export const RESUME_DATA = {
     "Currently pursuing a M.S. in Cybersecurity at the University of Wisconsin-La Crosse.",
   summary:
     "Active military member with a background in Information Systems and Cybersecurity, committed to strengthening digital defenses and fostering knowledge sharing in the dynamic field of cybersecurity.",
-  avatarUrl: "https://raw.githubusercontent.com/0xjoma/cv/main/src/images/logos/0xjoma.png",
+  avatarUrl: "https://github.com/0xjoma/cv/blob/main/src/images/logos/jomaelortizperez.png",
   personalWebsiteUrl: "https://0xjoma.github.io/",
   contact: {
     email: "",
