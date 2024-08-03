@@ -1,6 +1,8 @@
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 import { Certificate } from "crypto";
 import { name } from "file-loader";
+import { url } from "inspector";
+import { School } from "lucide-react";
 
 export const RESUME_DATA = {
   name: "Jomael Ortiz Perez",
@@ -46,6 +48,13 @@ export const RESUME_DATA = {
       degree: "Bachelor's Degree in Information Systems and Cybersecurity",
       start: "2019",
       end: "2024",
+    },
+    {
+      school: "CompTIA",
+      certificate: "Security+",
+      start: "2024",
+      end: "2027",
+      url: "https://www.credly.com/badges/63db803c-5963-44ac-9532-858951efeed5/public_url"
     }
   ],
   work: [
@@ -68,12 +77,6 @@ export const RESUME_DATA = {
       end: "2022",
       description:
         "BiggerMINDS developed a unique set of complementary products, MIND+ token, NFT Marketplace, NFT Staking, NFTs, MIND+ Staking and more, to create an entire sustainable ecosystem, enabling users, businesses, and projects access to a token with unlimited utility in a vast ecosystem.",
-    },
-  ],
-  certifications: [
-    {
-      name: "CompTIA Security+",
-      badgeId: "63db803c-5963-44ac-9532-858951efeed5",
     },
   ],
   skills: [

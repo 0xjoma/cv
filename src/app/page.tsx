@@ -7,7 +7,6 @@ import { Section } from "@/components/ui/section";
 import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { RESUME_DATA } from "@/data/resume-data";
-import CredlyBadge from "@/data/credlyBadge";
 import { ProjectCard } from "@/components/project-card";
 
 
@@ -160,14 +159,6 @@ export default function Page() {
               </Card>
             );
           })}
-        </Section>
-        <Section>
-          <h2 className="text-xl font-bold">Certifications</h2>
-          <div className="flex flex-wrap gap-4">
-          {RESUME_DATA.certifications.map((cert) => (
-          <CredlyBadge key={cert.name} badgeId={cert.badgeId} />
-          ))}
-          </div>
         </Section>
         <Section>
           <h2 className="text-xl font-bold">Skills</h2>
