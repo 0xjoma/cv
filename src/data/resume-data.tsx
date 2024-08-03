@@ -130,7 +130,6 @@ export const RESUME_DATA = {
     "Writing"
   ],
   projects: [
-
     {
       title: "Governance and Law",
       techStack: ["Academic", "Cybersecurity"],
