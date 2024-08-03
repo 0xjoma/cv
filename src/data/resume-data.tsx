@@ -51,10 +51,29 @@ export const RESUME_DATA = {
     },
     {
       school: "CompTIA",
-      degree: "Security+",
+      degree: "Security+ ce Certification",
       start: "2024",
       end: "2027",
       url: "https://www.credly.com/badges/63db803c-5963-44ac-9532-858951efeed5/public_url"
+    },
+    {
+      school: "CompTIA",
+      degree: "IT Fundamentals (ITF+) Certification",
+      start: "2023",
+      end: "∞",
+
+    },
+    {
+      school: "Columbia Southern University",
+      degree: "Ethical Hacker Certificate",
+      start: "2023",
+      end: "∞",
+    },
+    {
+      school: "Coursera",
+      degree: "Google Cybersecurity Certificate",
+      start: "2023",
+      end: "∞",
     }
   ],
   work: [
