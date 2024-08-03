@@ -51,7 +51,7 @@ export const RESUME_DATA = {
     },
     {
       school: "CompTIA",
-      certificate: "Security+",
+      degree: "Security+",
       start: "2024",
       end: "2027",
       url: "https://www.credly.com/badges/63db803c-5963-44ac-9532-858951efeed5/public_url"
