@@ -94,7 +94,7 @@ export const RESUME_DATA = {
       start: "2021",
       end: "2022",
       description:
-        "As the founder of BiggerMINDS, I developed a unique set of complementary products that once formed an entire sustainable ecosystem. My vision was to create a platform that would enable users, businesses, and projects to access a token with unlimited utility in a vast network of services. At its peak, BiggerMINDS was valued at over 1 million dollars, which was a testament to the potential we had created. The ecosystem I built included the MIND+ Token as our core utility token, an NFT Marketplace for buying, selling, and trading NFTs, NFT Staking that allowed users to stake their NFTs for rewards, unique NFTs within our ecosystem, MIND+ Staking for additional benefits, and various other products to enhance the overall user experience. I designed the system to be sustainable, with the MIND+ token offering unlimited utility, and made it accessible to a wide range of participants. My goal was to foster a vibrant and interconnected community of users and projects. Despite the innovative approach and initial success, I ultimately had to make the difficult decision to shut down the business. The experience of creating and running BiggerMINDS taught me valuable lessons about blockchain technology, community building, and the challenges of running a startup in the volatile crypto space.",
+        "As the founder of BiggerMINDS, I developed a unique set of complementary products that once formed an entire sustainable ecosystem. My vision was to create a platform enabling users, businesses, and projects to access a token with unlimited utility in a vast network of services. At its peak, BiggerMINDS was valued at over 1 million dollars, which was a testament to the potential we had created. The ecosystem I  built included the MIND+ Token as our core utility token, an NFT  Marketplace for buying, selling, and trading NFTs, NFT Staking that allowed users to stake their NFTs for rewards, unique NFTs within our ecosystem, MIND+ Staking for additional benefits, and various other products to enhance the overall user experience. I designed the system to be sustainable, with the MIND+ token offering unlimited utility, and made it accessible to a wide range of participants. I aimed to foster a vibrant and interconnected community of users and projects. Despite the innovative approach and initial success, I ultimately had to make the difficult decision to shut down the business. The experience of creating and running BiggerMINDS taught me valuable lessons about blockchain technology, community building, and the challenges of running a startup in the volatile crypto space.",
     },
   ],
       skills: [
@@ -102,6 +102,7 @@ export const RESUME_DATA = {
       "Adaptability",
       "Attention to Detail",
       "Authentication",
+      "Blockchain",
       "Cloud Security",
       "Continuous Learning",
       "Critical Thinking",
