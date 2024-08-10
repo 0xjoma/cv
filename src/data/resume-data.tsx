@@ -164,7 +164,7 @@ export const RESUME_DATA = {
       title: "Analyzing Network Protocols",
       techStack: ["Academic", "M.S Cybersecurity"],
       description:
-        "In this lab assignment, I will analyze network protocols using WS and NWI tools..",
+        "In this lab assignment, I will analyze network protocols using WS and NWI tools.",
       link: {
         href: "https://0xjoma.github.io/academic/2024/08/10/analyzing-network-protocols.html",
 
