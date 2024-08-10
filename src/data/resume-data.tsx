@@ -1,8 +1,10 @@
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 import { Certificate } from "crypto";
 import { name } from "file-loader";
+import { link } from "fs";
 import { url } from "inspector";
 import { School } from "lucide-react";
+import { title } from "process";
 
 export const RESUME_DATA = {
   name: "Jomael Ortiz Perez",
@@ -158,6 +160,16 @@ export const RESUME_DATA = {
     ],
 
   projects: [
+    {
+      title: "Analyzing Network Protocols",
+      techStack: ["Academic", "M.S Cybersecurity"],
+      description:
+        "In this lab assignment, I will analyze network protocols using WS and NWI tools..",
+      link: {
+        href: "https://0xjoma.github.io/academic/2024/08/10/analyzing-network-protocols.html",
+
+    }
+    },
     {
       title: "Governance and Law",
       techStack: ["Academic", "Cybersecurity"],
