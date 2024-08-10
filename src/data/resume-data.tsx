@@ -9,7 +9,7 @@ import { title } from "process";
 export const RESUME_DATA = {
   name: "Jomael Ortiz Perez",
   initials: "JOP",
-  location: "Ewa Beach, HI",
+  location: "Oahu, HI",
   locationLink: "https://www.google.com/maps/place/Ewa+beach+hi",
   about:
     "Currently pursuing a M.S. in Cybersecurity at the University of Wisconsin-La Crosse.",
