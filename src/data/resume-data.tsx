@@ -126,7 +126,7 @@ export const RESUME_DATA = {
   projects: [
     {
       title: "The Eratosthenes Method",
-      techStack: ["Academic", "Cybersecurity"],
+      techStack: ["Academic", "M.S Cybersecurity"],
       description:
         "In this project, I will explore the Eratosthenes Method, a technique used to find prime numbers.",
       link: {
@@ -144,7 +144,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Governance and Law",
-      techStack: ["Academic", "Cybersecurity"],
+      techStack: ["Academic", "B.S Cybersecurity"],
       description:
         "This project delves into cyberspace governance’s complex and dynamic realm, focusing on the legal and policy frameworks that govern cybersecurity.",
       link: {
@@ -153,7 +153,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Capstone Project",
-      techStack: ["Academic", "Cybersecurity"],
+      techStack: ["Academic", "B.S Cybersecurity"],
       description:
         "I embarked on an ambitious journey to design a Request for Proposal (RFP) for a hypothetical but innovative project in the healthcare technology sector.",
       link: {
@@ -182,12 +182,7 @@ export const RESUME_DATA = {
     {
       title: "Kali Linux On VMware",
       techStack: [
-        "Side Project",
-        "Kali Linux",
-        "VMware",
-        "macOS",
-        "M1",
-        "Cybersecurity",
+        "Side Project", "Cybersecurity",
       ],
       description:
         "A comprehensive guide on how to install Kali Linux, a leading Linux distribution for security and penetration testing, on a MacBook Pro equipped with the Apple M1 chip using VMWare.",
@@ -198,10 +193,7 @@ export const RESUME_DATA = {
     {
       title: "VAT part: I",
       techStack: [
-        "Side Project",
-        "Python",
-        "XSS Vulnerabilities",
-        "Cybersecurity",
+        "Side Project", "Cybersecurity",
       ],
       description:
         "I am creating a Python-based vulnerability assessment tool, specifically targeting XSS (Cross-Site Scripting) vulnerabilities.",
@@ -220,7 +212,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Information Security",
-      techStack: ["Academic", "Policy", "Cybersecurity"],
+      techStack: ["Academic", "B.S Cybersecurity"],
       description:
         "I devised a comprehensive information security policy for a hypothetical entity.",
       link: {
@@ -229,7 +221,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Vulnerability Assessment",
-      techStack: ["Side Project", "Linux", "MySQL", "Cybersecurity"],
+      techStack: ["Side Project", "Cybersecurity"],
       description:
         "The scope of this vulnerability assessment relates to the current access controls of the system.",
       link: {
@@ -238,7 +230,7 @@ export const RESUME_DATA = {
     },
     {
       title: "SQL Queries",
-      techStack: ["Side Project", "Linux", "SQL", "Cybersecurity"],
+      techStack: ["Side Project", "Cybersecurity"],
       description:
         "It is my job to ensure the system is safe, investigate all potential security issues, and update employee computers as needed. ",
       link: {
@@ -247,7 +239,7 @@ export const RESUME_DATA = {
     },
     {
       title: "File Permissions in Linux",
-      techStack: ["Side Project", "Linux", "Cybersecurity"],
+      techStack: ["Side Project", "Cybersecurity"],
       description:
         "Updating the file permissions for certain files and directories within the projects directory.",
       link: {
@@ -265,7 +257,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Setting Up Kali Linux",
-      techStack: ["Side Project", "Kali Linux", "macOS", "Cybersecurity"],
+      techStack: ["Side Project", "Cybersecurity"],
       description:
         "This guide outlines the process of creating a Kali Linux bootable USB device using a hard drive on a macOS environment.",
       link: {
