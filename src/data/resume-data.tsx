@@ -125,6 +125,15 @@ export const RESUME_DATA = {
 
   projects: [
     {
+      title: "The Eratosthenes Method",
+      techStack: ["Academic", "Cybersecurity"],
+      description:
+        "In this project, I will explore the Eratosthenes Method, a technique used to find prime numbers.",
+      link: {
+        href: "https://0xjoma.github.io/academic/2024/09/07/the-eratosthenes-method.html",
+      },
+    },
+    {
       title: "Analyzing Network Protocols",
       techStack: ["Academic", "M.S Cybersecurity"],
       description:
