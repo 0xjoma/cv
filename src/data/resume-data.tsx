@@ -15,7 +15,8 @@ export const RESUME_DATA = {
     "Currently pursuing a M.S. in Cybersecurity at the University of Wisconsin-La Crosse.",
   summary:
     "Dedicated and mission-driven professional with a passion for cybersecurity and a commitment to protecting digital assets and information systems. My background has instilled a strong sense of discipline, adaptability, and a relentless drive to tackle complex challenges head-on. I thrive in high-pressure environments and excel at making critical decisions when it matters most. As an analytical thinker with a keen eye for detail, I approach cybersecurity challenges from multiple angles, always considering both security's technical and human elements. My academic background in Cybersecurity and Information Systems and industry-recognized certifications like CompTIA Security+ have equipped me with a solid theoretical foundation. I'm eager to apply this knowledge in real-world scenarios, bridging the gap between theory and practice. With my unique blend of skills, education, and personal qualities, I aim to significantly protect digital infrastructures and foster a security-first mindset in any organization I join. I bring a fresh perspective, combining strategic thinking with technical acumen. I am eager to collaborate with experienced professionals, contribute innovative ideas, and grow into a trusted cybersecurity leader.",
-  avatarUrl: "https://raw.githubusercontent.com/0xjoma/cv/0817785d1a15515ad2256951ef580a3fa0b674c3/src/images/logos/jomaelortizperez.png",
+  avatarUrl:
+    "https://raw.githubusercontent.com/0xjoma/cv/0817785d1a15515ad2256951ef580a3fa0b674c3/src/images/logos/jomaelortizperez.png",
   personalWebsiteUrl: "https://0xjoma.github.io/",
   contact: {
     email: "jomael.ortizperez.cv@proton.me",
@@ -57,7 +58,7 @@ export const RESUME_DATA = {
       degree: "Security+ ce Certification",
       start: "2024",
       end: "2027",
-      url: "https://www.credly.com/badges/63db803c-5963-44ac-9532-858951efeed5/public_url"
+      url: "https://www.credly.com/badges/63db803c-5963-44ac-9532-858951efeed5/public_url",
     },
     {
       school: "CompTIA",
@@ -76,7 +77,7 @@ export const RESUME_DATA = {
       degree: "Google Cybersecurity Certificate",
       start: "2023",
       end: "∞",
-    }
+    },
   ],
 
   work: [
@@ -130,8 +131,7 @@ export const RESUME_DATA = {
         "In this lab assignment, I will analyze network protocols using WS and NWI tools.",
       link: {
         href: "https://0xjoma.github.io/academic/2024/08/10/analyzing-network-protocols.html",
-
-    }
+      },
     },
     {
       title: "Governance and Law",
@@ -140,7 +140,7 @@ export const RESUME_DATA = {
         "This project delves into cyberspace governance’s complex and dynamic realm, focusing on the legal and policy frameworks that govern cybersecurity.",
       link: {
         href: "https://0xjoma.github.io/jekyll/update/2024/01/02/governance-and-law.html",
-      }
+      },
     },
     {
       title: "Capstone Project",
@@ -149,34 +149,56 @@ export const RESUME_DATA = {
         "I embarked on an ambitious journey to design a Request for Proposal (RFP) for a hypothetical but innovative project in the healthcare technology sector.",
       link: {
         href: "https://0xjoma.github.io/jekyll/update/2024/01/01/rfp-creation.html",
-      }
+      },
     },
     {
       title: "Uncovering Evidence",
-      techStack: ["Academic", "BrowsingHistoryView", "FavoritesView", "Helix", "IECacheView", "IECookiesView", "MyLastSearch", "ProcessExplorer", "Cybersecurity"],
+      techStack: [
+        "Academic",
+        "BrowsingHistoryView",
+        "FavoritesView",
+        "Helix",
+        "IECacheView",
+        "IECookiesView",
+        "MyLastSearch",
+        "ProcessExplorer",
+        "Cybersecurity",
+      ],
       description:
         "My recent experience in a Digital Forensics class, involving a hands-on lab session, offered a deep dive into this intriguing and crucial aspect of digital investigation.",
       link: {
         href: "https://0xjoma.github.io/jekyll/update/2023/12/11/uncovering-new-evidence-using-bootable-forensic-utilities.html",
-      }
+      },
     },
     {
       title: "Kali Linux On VMware",
-      techStack: ["Side Project", "Kali Linux", "VMware", "macOS", "M1", "Cybersecurity"],
+      techStack: [
+        "Side Project",
+        "Kali Linux",
+        "VMware",
+        "macOS",
+        "M1",
+        "Cybersecurity",
+      ],
       description:
         "A comprehensive guide on how to install Kali Linux, a leading Linux distribution for security and penetration testing, on a MacBook Pro equipped with the Apple M1 chip using VMWare.",
       link: {
         href: "https://0xjoma.github.io/jekyll/update/2023/12/09/how-to-set-up-kali-linux-on-macbook-pro-m1-using-vmware.html",
-      }
+      },
     },
     {
       title: "VAT part: I",
-      techStack: ["Side Project", "Python", "XSS Vulnerabilities", "Cybersecurity"],
+      techStack: [
+        "Side Project",
+        "Python",
+        "XSS Vulnerabilities",
+        "Cybersecurity",
+      ],
       description:
         "I am creating a Python-based vulnerability assessment tool, specifically targeting XSS (Cross-Site Scripting) vulnerabilities.",
       link: {
         href: "https://0xjoma.github.io/jekyll/update/2023/11/03/update-a-file-through-python-algorithm.html",
-      }
+      },
     },
     {
       title: "Updating a File",
@@ -185,7 +207,7 @@ export const RESUME_DATA = {
         "I created a python algorithm to automate updating the allow_list.txt file and remove these IP addresses that should no longer have access.",
       link: {
         href: "https://0xjoma.github.io/jekyll/update/2023/11/03/update-a-file-through-python-algorithm.html",
-      }
+      },
     },
     {
       title: "Information Security",
@@ -194,7 +216,7 @@ export const RESUME_DATA = {
         "I devised a comprehensive information security policy for a hypothetical entity.",
       link: {
         href: "https://0xjoma.github.io/jekyll/update/2023/10/28/information-security-policy.html",
-      }
+      },
     },
     {
       title: "Vulnerability Assessment",
@@ -203,7 +225,7 @@ export const RESUME_DATA = {
         "The scope of this vulnerability assessment relates to the current access controls of the system.",
       link: {
         href: "https://0xjoma.github.io/jekyll/update/2023/10/27/vulnerability-assessment-report.html",
-      }
+      },
     },
     {
       title: "SQL Queries",
@@ -212,7 +234,7 @@ export const RESUME_DATA = {
         "It is my job to ensure the system is safe, investigate all potential security issues, and update employee computers as needed. ",
       link: {
         href: "https://0xjoma.github.io/jekyll/update/2023/10/26/apply-filters-to-sql-queries.html",
-      }
+      },
     },
     {
       title: "File Permissions in Linux",
@@ -221,7 +243,7 @@ export const RESUME_DATA = {
         "Updating the file permissions for certain files and directories within the projects directory.",
       link: {
         href: "https://0xjoma.github.io/jekyll/update/2023/10/24/file-permissions-in-linux.html",
-      }
+      },
     },
     {
       title: "Incident Report Analysis",
@@ -239,7 +261,7 @@ export const RESUME_DATA = {
         "This guide outlines the process of creating a Kali Linux bootable USB device using a hard drive on a macOS environment.",
       link: {
         href: "https://0xjoma.github.io/jekyll/update/2023/10/18/setting-up-kali-linux.html",
-  },
-},
+      },
+    },
   ],
-} as const ;
+} as const;
