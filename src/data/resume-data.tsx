@@ -163,15 +163,7 @@ export const RESUME_DATA = {
     {
       title: "Uncovering Evidence",
       techStack: [
-        "Academic",
-        "BrowsingHistoryView",
-        "FavoritesView",
-        "Helix",
-        "IECacheView",
-        "IECookiesView",
-        "MyLastSearch",
-        "ProcessExplorer",
-        "Cybersecurity",
+        "Academic", "B.S Cybersecurity",
       ],
       description:
         "My recent experience in a Digital Forensics class, involving a hands-on lab session, offered a deep dive into this intriguing and crucial aspect of digital investigation.",
