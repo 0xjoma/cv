@@ -1,10 +1,4 @@
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
-import { Certificate } from "crypto";
-import { name } from "file-loader";
-import { link } from "fs";
-import { url } from "inspector";
-import { School } from "lucide-react";
-import { title } from "process";
 
 export const RESUME_DATA = {
   name: "Jomael Ortiz Perez",
@@ -150,9 +144,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Uncovering Evidence",
-      techStack: [
-        "Academic", "B.S Cybersecurity",
-      ],
+      techStack: ["Academic", "B.S Cybersecurity"],
       description:
         "My recent experience in a Digital Forensics class, involving a hands-on lab session, offered a deep dive into this intriguing and crucial aspect of digital investigation.",
       link: {
@@ -161,9 +153,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Kali Linux On VMware",
-      techStack: [
-        "Side Project", "Cybersecurity",
-      ],
+      techStack: ["Side Project", "Cybersecurity"],
       description:
         "A comprehensive guide on how to install Kali Linux, a leading Linux distribution for security and penetration testing, on a MacBook Pro equipped with the Apple M1 chip using VMWare.",
       link: {
@@ -172,9 +162,7 @@ export const RESUME_DATA = {
     },
     {
       title: "VAT part: I",
-      techStack: [
-        "Side Project", "Cybersecurity",
-      ],
+      techStack: ["Side Project", "Cybersecurity"],
       description:
         "I am creating a Python-based vulnerability assessment tool, specifically targeting XSS (Cross-Site Scripting) vulnerabilities.",
       link: {
