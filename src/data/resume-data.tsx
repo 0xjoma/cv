@@ -97,14 +97,23 @@ export const RESUME_DATA = {
     },
   ],
 
-  skills: ["Cryptography", "Ethical Hacking", "Linux", "Python", "Solidity"],
+  skills: [
+    "Cryptography",
+    "Ethical Hacking",
+    "Linux",
+    "Python",
+    "Solidity",
+  ],
 
   projects: [
     {
-      name: "BiggerMINDS",
-      link: "https://biggerminds.io/",
+      title: "BiggerMINDS",
+      techStack: ["Blockchain", "Solidity"],
       description:
-        "BiggerMINDS was a blockchain-based platform that aimed to create a sustainable ecosystem of products and services. The platform included the MIND+ Token, an NFT Marketplace, NFT Staking, MIND+ Staking, and other products. I founded BiggerMINDS with the vision of creating a vibrant and interconnected community of users and projects. Despite the initial success, I ultimately had to shut down the business due to various challenges in the crypto space.",
+        "BiggerMINDS was a blockchain-based platform that aimed to create a sustainable ecosystem of products and services.",
+      link: {
+        href: "",
+      },
     },
   ],
 } as const;
