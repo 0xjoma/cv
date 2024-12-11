@@ -98,23 +98,11 @@ export const RESUME_DATA = {
   ],
 
   skills: [
-    "Analytical Thinking",
-    "Blockchain",
-    "Cloud Security",
-    "Communication",
-    "Continuous Learning",
     "Cryptography",
     "Ethical Hacking",
-    "Incident Response",
-    "Leadership",
     "Linux",
-    "Network Security",
-    "Penetration Testing",
-    "Problem-Solving",
     "Python",
-    "Risk Assessment",
-    "Security Information and Event Management (SIEM)",
-    "Teamwork",
+    "Solidity",
   ],
 
   projects: [
@@ -161,15 +149,6 @@ export const RESUME_DATA = {
         "My recent experience in a Digital Forensics class, involving a hands-on lab session, offered a deep dive into this intriguing and crucial aspect of digital investigation.",
       link: {
         href: "https://0xjoma.github.io/jekyll/update/2023/12/11/uncovering-new-evidence-using-bootable-forensic-utilities.html",
-      },
-    },
-    {
-      title: "Kali Linux On VMware",
-      techStack: ["Side Project", "Cybersecurity"],
-      description:
-        "A comprehensive guide on how to install Kali Linux, a leading Linux distribution for security and penetration testing, on a MacBook Pro equipped with the Apple M1 chip using VMWare.",
-      link: {
-        href: "https://0xjoma.github.io/jekyll/update/2023/12/09/how-to-set-up-kali-linux-on-macbook-pro-m1-using-vmware.html",
       },
     },
     {
@@ -233,15 +212,6 @@ export const RESUME_DATA = {
         "An Incident Report Analysis for a company that experienced a security event when all network services suddenly stopped responding.",
       link: {
         href: "https://0xjoma.github.io/jekyll/update/2023/10/23/incident-report-analysis.html",
-      },
-    },
-    {
-      title: "Setting Up Kali Linux",
-      techStack: ["Side Project", "Cybersecurity"],
-      description:
-        "This guide outlines the process of creating a Kali Linux bootable USB device using a hard drive on a macOS environment.",
-      link: {
-        href: "https://0xjoma.github.io/jekyll/update/2023/10/18/setting-up-kali-linux.html",
       },
     },
   ],
