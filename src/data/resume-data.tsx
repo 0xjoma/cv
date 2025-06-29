@@ -10,7 +10,7 @@ export const RESUME_DATA = {
   summary:
     "Dedicated and mission-driven professional with a passion for cybersecurity and a commitment to protecting digital assets and information systems. My background has instilled a strong sense of discipline, adaptability, and a relentless drive to tackle complex challenges head-on. I thrive in high-pressure environments and excel at making critical decisions when it matters most. As an analytical thinker with a keen eye for detail, I approach cybersecurity challenges from multiple angles, always considering both security's technical and human elements. My academic background in Cybersecurity and Information Systems and industry-recognized certifications like CompTIA Security+ have equipped me with a solid theoretical foundation. I'm eager to apply this knowledge in real-world scenarios, bridging the gap between theory and practice. With my unique blend of skills, education, and personal qualities, I aim to significantly protect digital infrastructures and foster a security-first mindset in any organization I join. I bring a fresh perspective, combining strategic thinking with technical acumen. I am eager to collaborate with experienced professionals, contribute innovative ideas, and grow into a trusted cybersecurity leader.",
   avatarUrl:
-    "https://raw.githubusercontent.com/0xjoma/cv/0817785d1a15515ad2256951ef580a3fa0b674c3/src/images/logos/jomaelortizperez.png",
+    "",
   personalWebsiteUrl: "https://0xjoma.github.io/",
   contact: {
     email: "jomael.ortizperez.cv@proton.me",
