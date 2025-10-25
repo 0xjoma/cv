@@ -14,7 +14,6 @@ const ICON_MAP: Record<
   LucideIcon | React.ComponentType<React.SVGProps<SVGSVGElement>>
 > = {
   github: GitHubIcon,
-  linkedin: LinkedInIcon,
   x: XIcon,
   globe: GlobeIcon,
   mail: MailIcon,
