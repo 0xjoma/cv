@@ -22,11 +22,6 @@ export const RESUME_DATA: ResumeData = {
         icon: "github",
       },
       {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/jomael-ortiz-perez/",
-        icon: "linkedin",
-      },
-      {
         name: "X",
         url: "https://twitter.com/0xjoma",
         icon: "x",
