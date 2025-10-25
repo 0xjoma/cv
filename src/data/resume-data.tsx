@@ -1,6 +1,6 @@
-import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import type { ResumeData } from "@/lib/types";
 
-export const RESUME_DATA = {
+export const RESUME_DATA: ResumeData = {
   name: "Jomael Ortiz Perez",
   initials: "JOP",
   location: "Oahu, HI",
@@ -19,17 +19,17 @@ export const RESUME_DATA = {
       {
         name: "GitHub",
         url: "https://github.com/0xjoma",
-        icon: GitHubIcon,
+        icon: "github",
       },
       {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/jomael-ortiz-perez/",
-        icon: LinkedInIcon,
+        icon: "linkedin",
       },
       {
         name: "X",
         url: "https://twitter.com/0xjoma",
-        icon: XIcon,
+        icon: "x",
       },
     ],
   },
@@ -52,25 +52,24 @@ export const RESUME_DATA = {
       degree: "Security+ ce Certification",
       start: "2024",
       end: "2027",
-      url: "https://www.credly.com/badges/63db803c-5963-44ac-9532-858951efeed5/public_url",
     },
     {
       school: "CompTIA",
       degree: "IT Fundamentals (ITF+) Certification",
       start: "2023",
-      end: "∞",
+      end: "Present",
     },
     {
       school: "Columbia Southern University",
       degree: "Ethical Hacker Certificate",
       start: "2023",
-      end: "∞",
+      end: "Present",
     },
     {
       school: "Coursera",
       degree: "Google Cybersecurity Certificate",
       start: "2023",
-      end: "∞",
+      end: "Present",
     },
   ],
 
@@ -81,7 +80,7 @@ export const RESUME_DATA = {
       badges: ["Active Duty"],
       title: "Logistics Engineer",
       start: "2012",
-      end: "Present",
+      end: null,
       description:
         "Senior Logistician Engineer and Supervisor with over ten years of experience in the United States Army. Proven track record of proper personnel, equipment, and resources management, including supervising a 5-member team and overseeing over $300 million in military assets. Adept at managing multiple projects simultaneously while ensuring optimal utilization and accountability of high-value resources. I implement strategic asset management protocols, resulting in improved efficiency and cost-effectiveness in resource allocation.",
     },
@@ -106,7 +105,8 @@ export const RESUME_DATA = {
       description:
         "BiggerMINDS was a blockchain-based platform that aimed to create a sustainable ecosystem of products and services.",
       link: {
-        href: "",
+        label: "biggerminds.io",
+        href: "https://biggerminds.io/",
       },
     },
   ],

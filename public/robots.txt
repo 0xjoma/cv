@@ -1,0 +1,13 @@
+# Robots.txt for https://0xjoma.github.io/
+
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+Disallow: /graphql
+
+# Sitemap location
+Sitemap: https://0xjoma.github.io/sitemap.xml
+
+# Crawl-delay for responsible crawling
+Crawl-delay: 1
