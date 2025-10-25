@@ -13,7 +13,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(RESUME_DATA.personalWebsiteUrl),
+  metadataBase: RESUME_DATA.personalWebsiteUrl
+    ? new URL(RESUME_DATA.personalWebsiteUrl)
+    : undefined,
   title: {
     default: `${RESUME_DATA.name} - ${RESUME_DATA.about}`,
     template: `%s | ${RESUME_DATA.name}`,
@@ -43,7 +45,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: RESUME_DATA.personalWebsiteUrl,
+    url: RESUME_DATA.personalWebsiteUrl || undefined,
     siteName: `${RESUME_DATA.name}'s CV`,
     title: `${RESUME_DATA.name} - ${RESUME_DATA.about}`,
     description: RESUME_DATA.about,
@@ -66,7 +68,7 @@ export const metadata: Metadata = {
     creator: "@0xjoma",
   },
   alternates: {
-    canonical: RESUME_DATA.personalWebsiteUrl,
+    canonical: RESUME_DATA.personalWebsiteUrl || undefined,
   },
 };
 

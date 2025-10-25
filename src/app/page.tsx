@@ -20,20 +20,20 @@ export const metadata: Metadata = {
     description: RESUME_DATA.about,
     type: "profile",
     locale: "en_US",
-    images: [
+    images: RESUME_DATA.personalWebsiteUrl ? [
       {
         url: `${RESUME_DATA.personalWebsiteUrl}opengraph-image`,
         width: 1200,
         height: 630,
         alt: `${RESUME_DATA.name}'s profile picture`,
       },
-    ],
+    ] : undefined,
   },
   twitter: {
     card: "summary_large_image",
     title: `${RESUME_DATA.name} - Resume`,
     description: RESUME_DATA.about,
-    images: [`${RESUME_DATA.personalWebsiteUrl}opengraph-image`],
+    images: RESUME_DATA.personalWebsiteUrl ? [`${RESUME_DATA.personalWebsiteUrl}opengraph-image`] : undefined,
   },
 };
 

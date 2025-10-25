@@ -2,11 +2,13 @@ import type { MetadataRoute } from "next";
 import { RESUME_DATA } from "@/data/resume-data";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = RESUME_DATA.personalWebsiteUrl;
+  if (!RESUME_DATA.personalWebsiteUrl) {
+    return [];
+  }
 
   return [
     {
-      url: baseUrl,
+      url: RESUME_DATA.personalWebsiteUrl,
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 1,
