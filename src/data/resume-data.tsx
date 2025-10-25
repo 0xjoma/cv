@@ -9,7 +9,7 @@ export const RESUME_DATA: ResumeData = {
   about:
     "Currently pursuing a M.S. in Cybersecurity at the University of Wisconsin-La Crosse and building xTessera on base chain.",
   summary:
-    "Active Duty Warrant Officer. Husband. Father of 3. Master of Science in Cybersecurity Student, specializing in Security Architecture. Blockchain developer by night.",
+    "Husband. Father of 3. Active Duty Warrant Officer. Master of Science in Cybersecurity Student, specializing in Security Architecture. Blockchain developer by night.",
   avatarUrl: "/0xjoma.png",
   contact: {
     email: "jomael.ortizperez.cv@proton.me",
