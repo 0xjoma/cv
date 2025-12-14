@@ -13,9 +13,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: RESUME_DATA.personalWebsiteUrl
-    ? new URL(RESUME_DATA.personalWebsiteUrl)
-    : undefined,
+  metadataBase: new URL("https://jomaelortizperez.dev"), // Default portfolio URL
   title: {
     default: `${RESUME_DATA.name} - ${RESUME_DATA.about}`,
     template: `%s | ${RESUME_DATA.name}`,

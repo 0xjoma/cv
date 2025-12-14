@@ -115,8 +115,8 @@ export function reactToString(content: React.ReactNode): string {
     return content.map(reactToString).join("");
   }
   if (typeof content === "object" && content && "props" in content) {
-    const { children } = content.props;
-    if (children) return reactToString(children);
+    const props = (content as { props: { children?: React.ReactNode } }).props;
+    if (props.children) return reactToString(props.children);
   }
   return "";
 }

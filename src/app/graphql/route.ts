@@ -7,6 +7,9 @@ import { type NextRequest, NextResponse } from "next/server";
 import { buildSchema } from "type-graphql";
 import { MeResolver } from "../../apollo/resolvers";
 
+// Force Node.js runtime to enable static generation
+export const runtime = "nodejs";
+
 let apolloServer: ApolloServer;
 let handler: any;
 
