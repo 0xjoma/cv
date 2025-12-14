@@ -41,18 +41,6 @@ export const RESUME_DATA: ResumeData = {
       start: "2019",
       end: "2024",
     },
-    {
-      school: "CompTIA",
-      degree: "Security+ ce Certification",
-      start: "2024",
-      end: "2027",
-    },
-    {
-      school: "Columbia Southern University",
-      degree: "Ethical Hacker Certificate",
-      start: "2023",
-      end: "Present",
-    },
   ],
 
   work: [
@@ -60,7 +48,7 @@ export const RESUME_DATA: ResumeData = {
       company: "US Army",
       link: "https://www.goarmy.com/",
       badges: ["Active Duty"],
-      title: "Accountable Property Officer",
+      title: "Property Accounting Technician",
       start: "2012",
       end: null,
       description:
@@ -78,7 +66,7 @@ export const RESUME_DATA: ResumeData = {
     },
   ],
 
-  skills: ["Cryptography", "Ethical Hacking", "Python", "Solidity"],
+  skills: ["Git", "Python", "Solidity", "Typescript", "AWS"],
 
   projects: [
     {
