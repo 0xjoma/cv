@@ -14,7 +14,7 @@
     "check:fix": "biome check --write ./src"
   },
   "dependencies": {
-    "@apollo/server": "^5.4.0",
+    "@apollo/server": "^5.5.1",
     "@as-integrations/next": "^4.1.0",
     "@radix-ui/react-avatar": "^1.1.11",
     "@radix-ui/react-dialog": "^1.1.15",
@@ -28,7 +28,7 @@
     "graphql": "^16.8.1",
     "graphql-scalars": "^1.23.0",
     "lucide-react": "^0.539.0",
-    "next": "^16.1.7",
+    "next": "^16.2.10",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
     "reflect-metadata": "^0.2.2",
@@ -44,7 +44,7 @@
     "@types/react-dom": "^19.2.3",
     "autoprefixer": "^10.0.1",
     "postcss": "^8",
-    "tailwindcss": "^3.4.0",
+    "tailwindcss": "^4.3.3",
     "typescript": "^5"
   }
 }
