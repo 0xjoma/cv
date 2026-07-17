@@ -45,6 +45,15 @@ export const RESUME_DATA: ResumeData = {
 
   work: [
     {
+      company: "SaabFi LLC",
+      link: "https://saabfi.com/",
+      badges: [],
+      title: "Founder",
+      start: "2026",
+      end: null,
+      description: "Simple, predictable, onchain finance.",
+    },
+    {
       company: "US Army",
       link: "https://www.goarmy.com/",
       badges: ["Active Duty"],
@@ -56,7 +65,14 @@ export const RESUME_DATA: ResumeData = {
     },
   ],
 
-  skills: ["Git", "Python", "Solidity", "Typescript", "AWS"],
+  skills: [
+    "Git",
+    "Python",
+    "Solidity",
+    "Typescript",
+    "AWS",
+    "Project Management",
+  ],
 
   projects: [],
 } as const;
